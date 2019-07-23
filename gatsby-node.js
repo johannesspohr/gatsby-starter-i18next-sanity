@@ -61,6 +61,8 @@ exports.createPages = async ({
 
   await build404Pages(createPage)
 
+  createRedirect({ fromPath: "/", toPath: "/en", isPermanent: true })
+
   allLanguages.forEach(language =>
     createRedirect({
       fromPath: `/${language}/*`,
