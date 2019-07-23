@@ -1,0 +1,8 @@
+{
+  "title": "Gatsby I18n Starter",
+  "de": "German",
+  "en":  "English",
+  "language": "Language",
+  "shopSlug": "buy-stuff-in",
+  "buildWithGatsby": "Built with Gatsby"
+}

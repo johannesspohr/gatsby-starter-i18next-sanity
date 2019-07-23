@@ -1,0 +1,6 @@
+{
+  "hi": "Hallo, Reisender",
+  "welcome": "Willkommen bei diesem Gatsby Starter!",
+  "buildSomethingGreat": "Jetzt bau' was schönes oder geh zu einem Laden",
+  "ourShopIn": "Unser Laden in {{city}}"
+}
