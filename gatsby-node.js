@@ -20,7 +20,6 @@ exports.createPages = async ({
   actions: { createPage, createRedirect },
 }) => {
   const homeTemplate = path.resolve(`src/templates/Home.js`)
-
   await buildI18nPages(
     null,
     (_, language) => ({
@@ -45,7 +44,6 @@ exports.createPages = async ({
       }
     }
   `)
-
   await buildI18nPages(
     shops.data.allSanityShop.edges,
     ({ node }, language, i18n) => ({
